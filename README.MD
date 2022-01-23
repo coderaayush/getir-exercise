@@ -17,12 +17,12 @@ Commands for setting up the app:
 
 I have used the provided cloud hosted Mongodb instance for running the demo and the local instance is used for running the tests.
 
-I am using jest test suite with supertest and I have added some test cases for checking the records filtering conditions on  the exercise. Code coverage is available in `coverage` directory.
+I am using jest test suite with supertest and I have added some test cases for checking the records filtering conditions on the exercise. Code coverage is available in `coverage` directory.
 
-**Live Endpoint Details:**
-Running on AWS EC2 VM
-`Public IP:` 3.111.101.29
-`Port:` 3000
+**Live Endpoint Details:**\
+Running on AWS EC2 VM\
+`Public IP:` 3.111.101.29\
+`Port:` 3000\
 Using PM2 process manager for running node application and monitoring.
 
 **Description:** Get Records API
