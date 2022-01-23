@@ -5,6 +5,7 @@ module.exports.getRecords = async function(req, res) {
         let pipeline = [
             {
                 "$project": {
+                    _id: 0,
                     key: 1,
                     createdAt: 1,
                     totalCount: {
@@ -48,7 +49,7 @@ module.exports.getRecords = async function(req, res) {
 
         return res.send({
             code: 0,
-            msg: "Successful",
+            msg: "Success",
             records: records
         });
     } catch(e) {
