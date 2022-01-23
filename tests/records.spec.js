@@ -53,7 +53,7 @@ describe('Records Endpoint Test', () => {
         expect(res.body).not.toEqual({});
     });
 
-    test('Should filter data for request data', async () => {
+    test('Should filter records for request data', async () => {
         let requestData = {
             "startDate": "2015-01-01",
             "endDate": "2015-12-01",
